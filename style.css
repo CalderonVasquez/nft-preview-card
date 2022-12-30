@@ -63,11 +63,12 @@ h6 {
 }
 
 body {
-  background-color: var(--dark-blue-card-BG);
+  max-width: 1440px;  
+  padding: 3.875em 1.5em;
+  background-color: var(--dark-blue-main-BG);
   font-family: "Outfit", sans-serif;
   font-size: var(--fs-paragraph);
   color: var(--soft-blue);
-  padding: 7em;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -78,6 +79,72 @@ body {
     max-width: 350px;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .main__bg {
+    padding: 1.5em 1.53em 1.5em 1.5em;
     background-color: var(--dark-blue-card-BG);
 }
+
+.main__image {
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+}
+
+.main__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 28px;
+    margin-bottom: 0.75em;
+    color: var(--white);
+}
+
+.main__paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 26px;
+    margin-bottom: 1em;
+}
+
+.article__price-flex {
+    margin-bottom: 1em;
+}
+
+.article__span-ethereum {
+    gap: 0.405em;
+    align-items: center;
+}
+
+.article__span-ethereum p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.938rem;
+    line-height: 19px;
+    color: var(--symbol-color);
+}
+
+.article__span-ethereum img {
+    width: 11px;
+}
+
+.article__span-time img {
+    width: 16px;
+    margin-right: 0.481em;
+}
+
+.article__span-time p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.938rem;
+    line-height: 19px;
+}
+
+hr {
+    font-size: 0.06rem;
+}
+
