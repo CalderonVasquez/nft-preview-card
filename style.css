@@ -1,40 +1,36 @@
-/*
-  1. Use a more-intuitive box-sizing model.
-*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+  --dark-blue-main-BG: hsl(217, 54%, 11%);
+  --dark-blue-card-BG: hsl(216, 50%, 16%);
+  --dark-blue-card-Line: hsl(215, 32%, 27%);
+  --soft-blue: hsla(215, 51%, 70%, 1);
+  --symbol-color: hsla(178, 100%, 50%, 1);
+  --white: hsl(0, 0%, 100%);
+
+  --fs-small: 0.938rem;
+  --fs-paragraph: 1.125rem;
+  --fs-title: 1.375rem;
+}
+
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
-/*
-  2. Remove default margin
-*/
+
 * {
     margin: 0;
+    padding: 0;
 }
 
-/*
-  3. Allow percentage-based heights in the application
-*/
 html,
 body {
     height: 100%;
 }
 
-/*
-  Typographic tweaks!
-  4. Add accessible line-height
-  5. Improve text rendering
-*/
-body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-}
-
-/*
-  6. Improve media defaults
-*/
 img,
 picture,
 video,
@@ -44,9 +40,6 @@ svg {
     max-width: 100%;
 }
 
-/*
-  7. Remove built-in form typography styles
-*/
 input,
 button,
 textarea,
@@ -54,9 +47,6 @@ select {
     font: inherit;
 }
 
-/*
-  8. Avoid text overflows
-*/
 p,
 h1,
 h2,
@@ -67,10 +57,18 @@ h6 {
     overflow-wrap: break-word;
 }
 
-/*
-  9. Create a root stacking context
-*/
 #root,
 #__next {
     isolation: isolate;
 }
+
+body {
+  background-color: var(--dark-blue-card-BG);
+  font-family: "Outfit", sans-serif;
+  font-size: var(--fs-paragraph);
+  color: var(--soft-blue);
+  padding: 1em;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
