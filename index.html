@@ -11,7 +11,11 @@
 <body>
   <main class="container main__bg">
     <article>
-      <img  class="main__image"  src="./images/image-equilibrium.jpg" alt="nft art in the shape of a multi-colored cube">
+      <div class="overlay">
+        <img class="main__image" src="./images/image-equilibrium.jpg" alt="nft art in the shape of a multi-colored cube">
+        <img src="./images/icon-view.svg" class="eye-icon" alt="">
+      </div>
+      
       <h2 class="main__title">Equilibrium #3429</h2>
       <p class="main__paragraph">Our Equilibrium collection promotes balance and calm.</p>
       <div class="article__price-flex row">
@@ -25,18 +29,13 @@
         </span>
       </div>
         <hr />
-      <div class="article__creator-flex">
-          <span>
+      <div class="article__creator-flex ">
+          <span class="article__creator-span">
             <img src="./images/image-avatar.png" alt="creator's avatar">
-            <p>Creation of Jules Wyvern</p>
+            <p><span class="soft-blue">Creation of </span>Jules Wyvern</p>
           </span>
       </div>
     </article>
   </main>
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">E. Marshall</a>.
-  </footer>
 </body>
 </html>
