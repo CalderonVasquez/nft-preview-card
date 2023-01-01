@@ -23,7 +23,7 @@ Your users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://github.com/CalderonVasquez/nft-preview-card/blob/master/screenshot/NFT%20preview%20card%20component.png)
+![Screenshot](https://github.com/CalderonVasquez/nft-preview-card/blob/1433edeff798e9e69bebd6cc22dbe76b484c3422/screenshot/NFT%20preview%20card%20component.png)
 
 ### Links
 
