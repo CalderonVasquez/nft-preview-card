@@ -27,8 +27,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/CalderonVasquez/nft-preview-card)
+- Live Site URL: (https://calderonvasquez.github.io/nft-preview-card/)
 
 ### Built with
 
@@ -38,8 +38,8 @@ Your users should be able to:
 
 ### What I learned
 
-I have never dealt with overlays. What made this overlay so difficult is that it was not just and overlay to deal with, but it also included an icon svg that needed to be centered. I had to do some research and copy a little bit of code to hack this overlay on my main image. I will definitely being looking for more resources to get a good grasp on overlays.
+I have never dealt with overlays. What made this overlay so difficult is that it was not just the overlay I had  to deal with, but it also included an icon svg that needed to be centered. I had to do some research in order to add the overlay to my main image. I will definitely being looking for more resources to get a good grasp on overlays.
 
 ## Author
 
-- Frontend Mentor - [@@CalderonVasquez](https://www.frontendmentor.io/profile/CalderonVasquez)
+- Frontend Mentor - [@CalderonVasquez](https://www.frontendmentor.io/profile/CalderonVasquez)
