@@ -29,8 +29,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: ![Add solution URL here](https://github.com/CalderonVasquez/nft-preview-card)
-- Live Site URL: [Add live site URL here](https://calderonvasquez.github.io/nft-preview-card/)
+- Solution URL: (https://github.com/CalderonVasquez/nft-preview-card)
+- Live Site URL: (https://calderonvasquez.github.io/nft-preview-card/)
 
 ### Built with
 
@@ -44,4 +44,4 @@ I have never dealt with overlays. What made this overlay so difficult is that it
 
 ## Author
 
-- Frontend Mentor - [@@CalderonVasquez](https://www.frontendmentor.io/profile/CalderonVasquez)
+- Frontend Mentor - [@CalderonVasquez](https://www.frontendmentor.io/profile/CalderonVasquez)
