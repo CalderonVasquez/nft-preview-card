@@ -90,35 +90,35 @@ body {
     background-color: var(--dark-blue-card-BG);
 }
 
-.main__image {
-    border-radius: inherit;
-    z-index: 1;
-}
-
-.main__image:hover {
-    opacity: 0.5;
+.cont_main-img {
+   position: relative;
 }
 
 .overlay {
-    display: grid;
-    place-items: center;
-    grid-template-areas: main;
-    background: var(--symbol-color);
-    border-radius: 8px;
-    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 295px;
+    height: 295px;
+    opacity: 0;
+    transform: .3s ease;
     cursor: pointer;
+    border-radius: 8px;
+    background:hsla(178, 100%, 50%, .50);
 }
 
-.overlay > * {
-    grid-area: main;
+.icon{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
 }
 
-.overlay > .eye-icon {
-    z-index: 0;
-}
-
-.overlay:is(:hover, :focus)>.eye-icon {
-    z-index: 1;
+.eq-image {
+    border-radius: 8px;
 }
 
 .main__title {
@@ -211,15 +211,16 @@ hr {
     color: var(--soft-blue)
 }
 
+.cont_main-img:hover .overlay {
+    opacity: 0.8;
+
+}
+
 @media(min-width: 327px){
     .container{
         max-width: 350px;
     }
 }
 
-@media(min-width: 375px) {
-    body{
-        max-width: 1440px;
-    }
-}
+
 
